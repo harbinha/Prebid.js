@@ -1,0 +1,16 @@
+[
+  "appnexusBidAdapter",
+  "appnexusAstBidAdapter",
+  "aolBidAdapter",
+  "criteoBidAdapter",
+  "dfpAdServerVideo",
+  "indexExchangeBidAdapter",
+  "kargoBidAdapter",
+  "openxBidAdapter",
+  "pubmaticBidAdapter",
+  "rubiconBidAdapter",
+  "sonobiBidAdapter",
+  "tremorBidAdapter",
+  "tripleliftBidAdapter",
+  "yieldbotBidAdapter"
+]
