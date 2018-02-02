@@ -1,6 +1,7 @@
 [
   "appnexusBidAdapter",
   "appnexusAstBidAdapter",
+  "aardvarkBidAdapter",
   "aolBidAdapter",
   "criteoBidAdapter",
   "dfpAdServerVideo",
@@ -12,5 +13,6 @@
   "sonobiBidAdapter",
   "tremorBidAdapter",
   "tripleliftBidAdapter",
+  "trustxBidAdapter",
   "yieldbotBidAdapter"
 ]
