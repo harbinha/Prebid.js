@@ -14,6 +14,7 @@ git checkout tags/$(<version.txt)
 
 ## Build
 ```bash
+git checkout master -- modules.json
 gulp build --modules=modules.json
 ```
 
