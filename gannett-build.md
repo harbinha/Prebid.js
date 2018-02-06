@@ -9,7 +9,7 @@ yarn install
 
 ## Checkout appropriate version
 ```bash
-git checkout tags/$(<version.txt)
+git checkout tags/$(<gannett-version.txt)
 ```
 
 ## Build
@@ -30,7 +30,7 @@ Add module name to `modules.json`
 - Ensure desired version exists in current tags:
     - `git tag -l | grep "my-desired-version"`
     - If your version is not listed, an upstream merge will be required (see below)
-- `echo "my-desired-version" > version.txt`
+- `echo "my-desired-version" > gannett-version.txt`
 
 # Merging Upstream Changes
 ```bash
