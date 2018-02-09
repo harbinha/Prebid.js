@@ -4,7 +4,7 @@
 1. [Install `yarn`](https://yarnpkg.com/lang/en/docs/install/)
 1. Clone
     ```bash
-    git clone https://github.com/GannettDigital/Prebid.js.git
+    git clone git@github.com:GannettDigital/Prebid.js.git
     cd Prebid.js
     ```
 1. Run build command
@@ -18,13 +18,16 @@ If you have access to the `ads-gci-www-gannett-cdn-com` Google Cloud bucket and 
 Details on steps run during this process can be found below in [Build Details](#build-details).
 
 # Adding a Module
-Add module name to `modules.json`
+Add module name to `modules.json`. Change must be committed before running build command.
 
 # Bumping Prebid Version
 - Ensure desired version exists in current tags:
     - `git tag -l | grep "my-desired-version"`
-    - If your version is not listed, an upstream merge will be required (see below)
-- `echo "my-desired-version" > gannett-version.txt`
+    - If your version is not listed, fetch upstream tags:
+        - `git remote add upstream git@github.com:prebid/Prebid.js.git`
+        - `git fetch upstream`
+        - Ensure version is now listed in `git tag -l`
+- Update version number in [`gannett-version.txt`](gannett-version.txt)
 
 # Merging Upstream Changes
 ```bash
