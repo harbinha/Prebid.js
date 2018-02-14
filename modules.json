@@ -11,6 +11,7 @@
   "pubmaticBidAdapter",
   "rubiconBidAdapter",
   "sonobiBidAdapter",
+  "stickyadstvBidAdapter",
   "tremorBidAdapter",
   "tripleliftBidAdapter",
   "trustxBidAdapter",
